@@ -1,5 +1,5 @@
 <cfscript>
-objPerson = new cf10_cfdevweek.presentation.cfcs.person();
+objPerson = new cfcs.person();
 writeDump(objPerson);
 objPerson.setFirstname('Dave').setLastName('Ferguson');
 writeOutput('<br />');

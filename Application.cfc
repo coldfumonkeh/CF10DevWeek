@@ -7,7 +7,7 @@ component name="Application" {
 	setting showdebugoutput=false;
 	
 	public function onApplicationStart() output="false"{
-		application.code = new cf10_cfdevweek.presentation.codeOutput(); 
+		application.code = new codeOutput(); 
 	}
 
 	public function onRequestStart(required string thePage) output="true"{
