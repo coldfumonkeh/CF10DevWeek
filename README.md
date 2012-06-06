@@ -1,7 +1,9 @@
 Adobe ColdFusion 10 Developer Week 2012
 ============
 
-This is the session slide deck and code samples from my presentation "Get productive using the language enhancements in ColdFusion 10".
+This is the session slide deck and code samples from my presentation
+
+"Get productive using the language enhancements in ColdFusion 10".
 
 Requirements
 ----------------
