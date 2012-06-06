@@ -1,0 +1,8 @@
+<cfquery name="artists" datasource="cfartgallery" maxrows="5"> 
+    select firstname, lastname from artists 
+</cfquery> 
+<cfscript>
+for ( var x=1;x<=artists.recordCount;x=x+1 ) {
+  artistName = artists.firstname[x] & artists.lastname[x];
+}
+</cfscript>

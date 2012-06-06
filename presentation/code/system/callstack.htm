@@ -1,0 +1,5 @@
+<cfscript>
+    callStack = callStackGet();
+    writeDump(callStack);
+    writeOutput(getDirectoryFromPath(callStack[1].template));
+</cfscript>

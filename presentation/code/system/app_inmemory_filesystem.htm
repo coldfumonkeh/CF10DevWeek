@@ -1,0 +1,15 @@
+component name="Application" {
+
+    this.name = hash( getCurrentTemplatePath() );
+    this.applicationTimeout = createTimeSpan( 0, 0, 2, 0 );
+    this.inmemoryfilesystem.size = 10; // <---- check it out!!
+    
+    public function onApplicationStart() output="false"{
+        // do stuff
+    }
+
+    public function onRequestStart(required string thePage) output="true"{
+        // do more stuff
+    }
+
+}

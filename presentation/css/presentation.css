@@ -1,0 +1,233 @@
+
+html,
+body {
+	height: 100% ;
+	width: 100% ;
+	overflow: hidden;
+	overflow-y: hidden;
+	}
+
+body {
+	background-color: #FFFFFF ;
+	background-image: url( "site_background.png" ) ;
+	background-position: right top ;
+	background-repeat: repeat-x ;
+	color: #333333 ;
+	font-family: verdana, arial ;
+	font-size: 62.5% ;
+	margin: 0px 0px 0px 0px ;
+	overflow-y: scroll ;
+	padding: 0px 0px 0px 0px ;
+	}
+
+div#presentation-header {
+	background-color: #555 ;
+	height: 81px ;
+	margin: 0px 0px 40px 0px ;
+	position: relative ;
+	}
+	
+div#presentation-header h1 {
+	height: 46px;
+	left: 30px;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	top: 18px;
+	width: 800px;
+	color: white;
+}
+
+div#presentation-header h2 {
+	height: 30px;
+	left: 30px;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	top: 50px;
+	width: 800px;
+	color: white;
+}
+	
+div#presentation-position {
+	bottom: 2px;
+	color: white;
+	font-size: 10px;
+	line-height: 19px;
+	position: absolute;
+	right: 300px;
+	text-align: right;
+	width: 225px;
+	}
+	
+div#presentation-content {
+	padding: 0px 30px 30px 30px;
+	width: 1200px;
+	margin: 0 auto;
+	}
+	
+ol#presentation-slides {
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+	
+	
+/* content. */
+
+li.presentation-slide h2 {
+	color: #7C7736 ;
+	font-size: 2.6em ;
+	font-weight: 400 ;
+	margin: 0px 0px 1.2em 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+li.presentation-slide h2.title-slide {
+	background-color: #111111 ;
+	background-position: 50% 50% ;
+	background-repeat: no-repeat ;
+	color: #111111 ;
+	height: 100% ;
+	left: 0px ;
+	position: absolute ;
+	top: 0px ;
+	width: 100% ;
+	z-index: 999 ;
+	}
+	
+li.presentation-slide h3 {
+	color: #7C7736 ;
+	font-size: 2.2em ;
+	font-weight: 400 ;
+	margin: 0px 0px 1.2em 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+li.presentation-slide p,
+li.presentation-slide ul,
+li.presentation-slide ol {
+	font-size: 2.2em ;
+	line-height: 1.5em ;
+	margin-bottom: 1.5em ;
+	margin-top: 0px ;
+	}
+	
+	
+li.presentation-slide ul.functionList, li.presentation-slide ul.tagList {
+	width: 200px;
+	float: left;
+	margin-top: 40px;
+}
+
+li.presentation-slide ul.functionList li {
+	font-size: 70%;
+	line-height: 1.0em ;
+	}
+	
+li.presentation-slide ul.tagList li {
+	font-size: 100%;
+	line-height: 1.0em ;
+	}
+	
+li.presentation-slide ul ul,
+li.presentation-slide ol ol,
+li.presentation-slide ul ol,
+li.presentation-slide ol ul {
+	font-size: 100% ;
+	margin-bottom: .5em ;
+	margin-top: .5em ;
+	}
+	
+li.presentation-slide li {
+	margin-bottom: .5em ;
+	}
+	
+li.presentation-slide a {
+	color: #C69104 ;
+	}
+	
+li.presentation-slide a img {
+	border: 0px solid #111111 ;
+	}
+	
+li.presentation-slide p img {
+	margin: 0 auto;
+}
+
+
+li.presentation-slide .emphasis {
+	font-size: 250px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+li.presentation-slide .emphasis_small {
+	font-size: 140px;
+	position: relative;
+	margin: 0 auto;
+	top: 140px;
+	text-align: center;
+}
+
+/************/
+
+div#monkehBanner {
+	background: url(../../assets/monkehBanner.png) no-repeat;
+	width: 190px;
+	height: 49px;
+	position: absolute;
+	right: 0px;
+	top: 25px;
+}
+
+div#monkehBanner a {
+	width: 190px;
+	height: 49px;
+	display: block;
+}
+
+div#monkehBanner span { display: none; }
+
+blockquote.style5 {
+  font: 12px/18px normal "Courier New", sans-serif;
+  padding-left: 70px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #000;
+  color: white;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 5px;
+  background-image: url(../../assets/openquote5.gif);
+  background-position: middle left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  }
+  blockquote.style5 div {
+    padding-right: 50px;
+    display: block;
+    background-image: url(../../assets/closequote5.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+} 
+
+
+blockquote.style2 {
+  font: normal helvetica, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
+div img {
+	display: block;
+	margin: auto;
+	border: 0px solid #111111;
+}

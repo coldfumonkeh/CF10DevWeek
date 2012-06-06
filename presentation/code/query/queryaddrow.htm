@@ -1,0 +1,11 @@
+queryAddRow(myQuery, [ 
+        {id=2,name="Two"}, 
+        {id=3,name="Three"}
+    ]); // An array of structs
+  
+queryAddRow(myQuery,{id=4,name="Four"}); // A struct 
+
+queryAddRow(myQuery, [ 
+        [5,"Five"], 
+        [6,"Six"]
+    ]); // An array (single or multi-dimensional)

@@ -1,0 +1,6 @@
+<cffile action="upload"
+        destination="#expandPath("./repository")#"
+        accept="text/plain"
+        filefield="form.yourFile"
+        nameconflict="overwrite"
+        strict="true" />

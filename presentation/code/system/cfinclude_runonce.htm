@@ -1,0 +1,11 @@
+<!--- Two includes in a template... --->
+<cfinclude template="included_file.cfm" runonce="true" />
+<cfinclude template="included_file2.cfm" />
+
+<!--- The contents of included_file2.cfm --->
+<cfinclude template="included_file.cfm" runonce="true" />
+
+<!--- The contents of included_file.cfm --->
+<cfoutput>
+    <p>It is currently #dateTimeFormat(Now())#</p>
+</cfoutput>
