@@ -8,9 +8,9 @@ Requirements
 This presentation requires Adobe ColdFusion 10 to run locally on your machine.
 Download CF10 here: [http://www.adobe.com/products/coldfusion-family.html ](http://www.adobe.com/products/coldfusion-family.html)
 
-Once installed, [download ](https://github.com/coldfumonkeh/CF10DevWeek/downloads) this package and install in your ColdFusion 10 webroot. Place the code within a directory named 'CFDevWeek'.
+Once installed, [download ](https://github.com/coldfumonkeh/CF10DevWeek/downloads) this package and install in your ColdFusion 10 webroot.
 
-Browse to [http://127.0.0.1:8501/CF10DevWeek/ ](http://127.0.0.1:8501/CF10DevWeek/) on your local machine (change the port number if needed) and you should be able to view the session code.
+Browse to [http://127.0.0.1:8501/< location of the downloaded project >/ ](http://127.0.0.1:8501/< location of the downloaded project >/) on your local machine (change the port number if needed) and you should be able to view the session code.
 
 
 ### 1.0.0 - June 06, 2012###
