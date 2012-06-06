@@ -784,6 +784,12 @@
 					<li><a href="http://forums.adobe.com/community/coldfusion" target="_blank">http://forums.adobe.com/community/coldfusion</a></li>
 					<li>Twitter!! ##ColdFusion</li>
 				</ul>
+
+				<h2>slides available here...</h2>
+
+				<ul>
+					<li><a href="https://github.com/coldfumonkeh/CF10DevWeek" target="_blank">https://github.com/coldfumonkeh/CF10DevWeek</a></li>
+				</ul>
 			
 			</li>
 			
